@@ -11,7 +11,7 @@ Bu repo, **Programming** dersi için yaptığım ders içi uygulamalar ve dönem
 - **Proje Adı:** Hafıza Oyunu
 - **Amaç:** Oyuncunun koordinatlarla kartları eşleştirmesi ve puan kazanması; oyun ilerleyişini kaydetme/yükleme özelliğiyle kesintisiz oynanış sağlanır.
 - **Oynanış:** Kullanıcı minimum 4 ve çift sayı olacak şekilde boyut girer (ör. 4, 6); kartlar A-Z aralığında rastgele dağıtılır, her harften iki tane bulunur.
-- **Menü:** "Yeni Oyun", "Kayıtlı Oyundan Devam Et" ve "Çıkış" seçenekleri sunulur; oyun sırasında harf girilerek (cin.fail tetiklenir) kayıt yapılıp ana menüye dönülür.
+- **Menü:** "Yeni Oyun", "Kayıtlı Oyundan Devam Et" ve "Çıkış" seçenekleri sunulur; oyun sırasında harf girilerek kayıt yapılıp ana menüye dönülür.
 - **Puanlama:** Doğru eşleşme +3 puan kazandırır, yanlış eşleşme -1 puan düşer; puan sürekli ekranda görünür.
 - **Kayıt/Yükleme:** Oyun durumu (puan ve tablo) save.txt dosyasına kaydedilir; "Kayıtlı Oyundan Devam Et" seçildiğinde dosya okunur, yoksa yeni oyun başlar.
 - **Kontrol:** Açık kartlar (boşlukla gösterilen) tekrar seçilemez, geçersiz koordinatlar (boyuttan büyük/küçük) için uyarı verilir ve yeniden giriş istenir.
@@ -19,3 +19,4 @@ Bu repo, **Programming** dersi için yaptığım ders içi uygulamalar ve dönem
 
 ## Notlar
 - Hafıza oyunu iki dönem boyunca, derslerde öğrenilen konularla üzerinde koyularak geliştirilmiştir. Sabit 6x6 matristen başlayarak, kullanıcıdan dinamik boyut alma ve oyun durumunu dosyaya kaydedip yükleme özellikleriyle zenginleştirilmiştir. Burada en son versiyonunu paylaşıyorum.
+- Dönem sonu projesi klasöründe paylaşılan PDF dokümanları, projenin isterlerini içermektedir.
